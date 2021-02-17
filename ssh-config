@@ -1,0 +1,19 @@
+Host 20.48.58.128
+    HostName 20.48.58.128
+    User ggolfz
+    IdentityFile ~/.ssh/id_rsa
+
+Host 20.46.163.48
+    HostName 20.46.163.48
+    User ggolfz
+    IdentityFile ~/.ssh/id_rsa
+
+Host 20.46.162.15
+    HostName 20.46.162.15
+    User ggolfz
+    IdentityFile ~/.ssh/id_rsa
+
+Host 20.48.59.109
+    HostName 20.48.59.109
+    User ggolfz
+    IdentityFile ~/.ssh/id_rsa
