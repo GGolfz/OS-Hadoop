@@ -7,5 +7,5 @@
     </property>
 </configuration>
 
-<!-- For master use 0.0.0.0 -->
-<!-- For other use master ip -->
+<!-- For master use 0.0.0.0 to accept external ip -->
+<!-- For other use master ip address -->
