@@ -2,10 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
     <property>
-        <name>fs.defaultFS</name>
-        <value>hdfs://server-ip:9000</value>
+        <name>yarn.resourcemanager.hostname</name>
+        <value>13.71.140.165</value>
     </property>
 </configuration>
-
-<!-- For master use 0.0.0.0 -->
-<!-- For other use master ip -->

@@ -11,6 +11,6 @@
     </property>
     <property>
         <name>yarn.resourcemanager.hostname</name>
-        <value>20.48.58.128</value>
+        <value>13.71.140.165</value>
     </property>
 </configuration>
