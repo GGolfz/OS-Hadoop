@@ -41,7 +41,7 @@ sudo su - ggolfzuser
 10) Configure `core-site.xml` which located in `etc/hadoop/core-site.xml` to be same as `core-site.xml` for all virtual machine
 11) Configure `hdfs-site.xml` which located in `etc/hadoop/hdfs-site.xml` to be same as `hdfs-site.xml` for all virtual machine
 12) Configure `yarn-site.xml` which located in `etc/hadoop/yarn-site.xml` to be same as `yarn-site.xml` for master machine and same as `yarn-site-worker.xml` for worker machine
-13) Configure `mapred-site.xml` which located in `etc/hadoop/hdfs-site.xml` to be same as `hdfs-site.xml` for master machine
+13) Configure `mapred-site.xml` which located in `etc/hadoop/mapred-site.xml` to be same as `hdfs-site.xml` for master machine
 14) Configure `masters` file which located in `etc/hadoop/masters` to be same as `masters` for master machine
 15) Configure `workers` file which located in `etc/hadoop/workers` to be same as `workers` for master machine
 16) Create Directory for hdfs by using `sudo mkdir -p /usr/local/hadoop/hdfs/data` and grant permission with `sudo chown -R ggolfzuser:ggolfzuser /usr/local/hadoop/hdfs/data`
