@@ -46,4 +46,6 @@ sudo su - ggolfzuser
 15) Configure `workers` file which located in `etc/hadoop/workers` to be same as `workers` for master machine
 16) Create Directory for hdfs by using `sudo mkdir -p /usr/local/hadoop/hdfs/data` and grant permission with `sudo chown -R ggolfzuser:ggolfzuser /usr/local/hadoop/hdfs/data`
 17) Format namenode by `bin/hdfs namenode -format`
-18) Start service by `sbin/start-all.sh`
+18) Edit `/etc/hosts` add ip of master and worker node as same as `hosts` file 
+19) Open port `9000,9866,9870,50010,54311` for all machine.
+20) Start service by `sbin/start-all.sh`
